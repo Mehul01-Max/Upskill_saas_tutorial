@@ -17,15 +17,15 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
- html{
+html{
   height: 100%;
   }
  
- h1 , h2 , h3 {
+h1 , h2 , h3 {
      font-family:Open;
 }
      
- body , .navbar {
+.navbar , .home_layout {
      //Gradient provided by @_ighosh at uigradient.com
     background: #2193b0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
@@ -36,7 +36,12 @@
  .navbar {
      border:none;
  }
- 
+
+.home_layout{
+    margin:-20px;
+    padding-bottom:100px;
+    padding-top:50px;
+}
    
    
   
