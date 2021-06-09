@@ -45,28 +45,13 @@ h1 , h2 , h3 {
 }
    
    
-  .navbar-default .navbar-brand{
-      color:White;
-  }
-  
-  .navbar-default .navbar-nav > li > a {
-      color:White;
-  }
-  
-   .navbar-default .navbar-brand:hover{
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color:White;
+  &:hover {
       color:White;
       opacity:0.8;
+      }
   }
+      
   
-   .navbar-default .navbar-nav > li > a:hover {
-      color:White;
-      opacity:0.8;
-  }
-  
-  
-  
-  
-
-
-       
-     
